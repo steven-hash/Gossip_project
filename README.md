@@ -1,24 +1,11 @@
-# README
+# gossip project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## binome
 
-Things you may want to cover:
+Razafindrakoto m Christian
 
-* Ruby version
+Rasamison hajalalaina steven
 
-* System dependencies
+## projet ROR view controller route (base de donner en cour de construction )
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
