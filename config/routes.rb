@@ -5,8 +5,10 @@ Rails.application.routes.draw do
  
    get 'about' => 'contact#about'
 
-
-    #resources :team
+   
+    resources :cities
+    resources :users
+    resources :posts
 
    get 'welcome/:first_name' => 'landing_page#welcome'
 end

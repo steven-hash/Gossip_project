@@ -22,6 +22,10 @@
       <li class="nav-item active">
         <a class="nav-link" href="/">gossip project<span class="sr-only">(current)</span></a>
       </li>
+        <li class="nav-item">
+             <%= link_to " créer votre potin" , new_post_path , :class =>'nav-link' %>
+      
+
       <li class="nav-item">
         <%= link_to "team", team_path, :class => 'nav-link' %>
       </li>
@@ -29,8 +33,15 @@
         <%= link_to "about", about_path, :class => 'nav-link' %>
       </li>
       <li class="nav-item">
-        
-      </li>
+             <%= link_to "all potin" , posts_path , :class =>'nav-link' %>
+            </li>
+      <li class="nav-item">
+             <%= link_to "user" , new_user_path , :class => 'nav-link' %>
+           </li>
+      <li class="nav-item">
+
+       
+       </li>
     </ul>
   </div>
 </nav>

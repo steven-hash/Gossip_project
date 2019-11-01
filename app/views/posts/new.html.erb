@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+
+<h1>   Add Potin Posts  </h1>
+
+
+<%= form_tag url_for(action:'create'), methode: "post" do %>
+
+ <%= label_tag 'Auteur' %>
+ <%= text_field_tag 'title', @posts %>
+ <br/> <br/>
+
+ <%=label_tag 'Potin' %>
+ <%=text_area_tag 'content' ,@posts %>
+ <br/> <br/>
+
+ <%= submit_tag "Crée Potin" %>
+
+ <% end %>
+
+
+</html>
+
+
